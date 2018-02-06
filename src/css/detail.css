@@ -1,0 +1,325 @@
+#container > div:nth-child(3) {
+  padding-bottom: 30px;
+  background: #F5F5F5; }
+  #container > div:nth-child(3) > div > div:nth-child(1) {
+    overflow: hidden;
+    width: 1200px;
+    height: 25px;
+    margin: 0 auto;
+    padding-top: 15px; }
+    #container > div:nth-child(3) > div > div:nth-child(1) > ul > li {
+      float: left;
+      height: 25px;
+      z-index: 1; }
+    #container > div:nth-child(3) > div > div:nth-child(1) > ul > li:nth-child(1) > a {
+      height: 14px;
+      margin: 6px 0 0 -1px;
+      padding: 0 14px; }
+    #container > div:nth-child(3) > div > div:nth-child(1) > ul > li:nth-child(2) > a {
+      padding: 0 30px 0 12px;
+      height: 14px;
+      margin: 6px 0 0 -1px;
+      padding: 0 12px;
+      border-left: 1px solid #999;
+      border-right: 1px solid #999;
+      z-index: 2; }
+    #container > div:nth-child(3) > div > div:nth-child(1) > ul > li:nth-child(2) > p {
+      top: 24px;
+      left: -1px;
+      display: none;
+      width: 150px;
+      padding: 15px;
+      border: 1px solid #999;
+      background: #fff; }
+      #container > div:nth-child(3) > div > div:nth-child(1) > ul > li:nth-child(2) > p > a {
+        display: inline-block;
+        margin: 10px 10px 0; }
+  #container > div:nth-child(3) > div > div:nth-child(2) {
+    overflow: hidden;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 15px 25px 30px 15px;
+    background: #fff; }
+    #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(1) {
+      float: left; }
+      #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
+        width: 448px;
+        height: 448px;
+        border: 1px #555 solid; }
+      #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) {
+        width: 400px;
+        height: 70px;
+        padding: 20px 30px 0 20px;
+        position: relative; }
+        #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div {
+          position: relative;
+          overflow: hidden; }
+          #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > ul {
+            position: absolute; }
+        #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > span:nth-child(2) {
+          display: block;
+          width: 10px;
+          height: 19px;
+          background: url("../img/detail_img/detailjingling.fw.png") 0 -19px;
+          position: absolute;
+          top: 41px;
+          left: 5px; }
+        #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > span:nth-child(3) {
+          display: block;
+          width: 10px;
+          height: 19px;
+          background: url("../img/detail_img/detailjingling.fw.png") 0 0;
+          position: absolute;
+          top: 41px;
+          left: 425px; }
+      #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) {
+        overflow: hidden; }
+        #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a {
+          display: block;
+          float: left;
+          padding-left: 30px; }
+        #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(2) {
+          margin-left: 20px;
+          position: relative; }
+          #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(2)::before {
+            content: '';
+            display: block;
+            width: 16px;
+            height: 15px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background: url("../img/detail_img/detailjingling.fw.png") -10px 0; }
+        #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(3) {
+          margin-left: 20px;
+          position: relative; }
+          #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(3)::before {
+            content: '';
+            display: block;
+            width: 17px;
+            height: 17px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background: url("../img/detail_img/detailjingling.fw.png") -30px 0; }
+      #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) {
+        padding-top: 10px;
+        padding-left: 50px; }
+        #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > a:nth-child(1) {
+          float: left;
+          position: relative;
+          display: block;
+          width: 70px;
+          height: 30px;
+          padding-left: 62px;
+          line-height: 30px;
+          background-color: #BC338B;
+          color: #fff; }
+          #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > a:nth-child(1)::before {
+            content: '';
+            display: block;
+            width: 21px;
+            height: 18px;
+            background: url("../img/detail_img/detailjingling.fw.png") -53px 0;
+            position: absolute;
+            top: 3px;
+            left: 22px; }
+        #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > a {
+          text-align: center;
+          float: left;
+          margin-left: 20px;
+          position: relative;
+          display: block;
+          width: 70px;
+          height: 30px;
+          line-height: 30px;
+          background-color: #BC338B;
+          color: #fff; }
+    #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) {
+      float: left;
+      margin-left: 20px; }
+      #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > h3 {
+        margin-top: 10px;
+        font-size: 18px; }
+      #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > p:nth-child(2) {
+        overflow: hidden;
+        padding-top: 20px; }
+        #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > p:nth-child(2) > span:nth-child(1) {
+          display: block;
+          float: left; }
+        #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > p:nth-child(2) > span:nth-child(2) {
+          display: block;
+          float: left;
+          margin-left: 50px; }
+      #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > p:nth-child(3) {
+        font-size: 24px;
+        overflow: hidden;
+        padding-top: 20px; }
+        #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > p:nth-child(3) > a {
+          color: deeppink; }
+      #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > p:nth-child(4) {
+        overflow: hidden;
+        padding-top: 20px; }
+      #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > p:nth-child(5) {
+        overflow: hidden;
+        padding-top: 20px; }
+        #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > p:nth-child(5) > span {
+          color: deeppink; }
+      #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(6) {
+        overflow: hidden;
+        padding-top: 20px; }
+        #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div {
+          padding: 10px 0 5px;
+          border-top: 1px solid #e5e5e5; }
+        #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(6) ul {
+          margin-bottom: 20px; }
+          #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(6) ul > li > ul {
+            overflow: hidden;
+            border-bottom: 1px dotted #e5e5e5; }
+            #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(6) ul > li > ul > li {
+              float: left;
+              padding-left: 30px; }
+              #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(6) ul > li > ul > li > p {
+                height: 34px;
+                line-height: 34px; }
+            #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(6) ul > li > ul > li:nth-child(1) > a {
+              display: block;
+              width: 35px;
+              height: 35px;
+              background: url("../img/detail_img/mingoods.fw.png");
+              border: 1px #fff solid; }
+              #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(6) ul > li > ul > li:nth-child(1) > a:hover {
+                border: 1px solid #58bc58; }
+            #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(6) ul > li > ul > li:nth-child(5) > span:nth-child(1) {
+              float: left;
+              display: block;
+              width: 22px;
+              height: 22px;
+              background: url("../img/detail_img/detailjingling.fw.png") 0 -75px;
+              cursor: pointer; }
+            #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(6) ul > li > ul > li:nth-child(5) > input {
+              float: left;
+              display: block;
+              width: 45px;
+              height: 18px; }
+            #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(6) ul > li > ul > li:nth-child(5) > span:nth-child(3) {
+              float: left;
+              display: block;
+              width: 22px;
+              height: 22px;
+              background: url("../img/detail_img/detailjingling.fw.png") 0 -46px;
+              cursor: pointer; }
+      #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(7) {
+        overflow: hidden;
+        margin-top: 25px;
+        padding: 25px 50px;
+        border: 1px solid #e5e5e5; }
+        #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(7) > span:nth-child(2) {
+          display: block;
+          float: right;
+          width: 132px;
+          height: 34px;
+          background-color: #dd1b7b;
+          color: #fff;
+          line-height: 34px;
+          text-align: center;
+          cursor: pointer; }
+        #container > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(7) > span:nth-child(1) {
+          display: block;
+          float: right;
+          width: 132px;
+          height: 34px;
+          background-color: #2C7AE7;
+          color: #fff;
+          line-height: 34px;
+          text-align: center;
+          margin-left: 15px;
+          cursor: pointer; }
+  #container > div:nth-child(3) > div > div:nth-child(3) {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 15px 10px;
+    background: #fff; }
+    #container > div:nth-child(3) > div > div:nth-child(3) > ul {
+      overflow: hidden;
+      margin-top: 20px; }
+      #container > div:nth-child(3) > div > div:nth-child(3) > ul > li {
+        float: left; }
+        #container > div:nth-child(3) > div > div:nth-child(3) > ul > li > a {
+          margin-left: 10px;
+          display: block; }
+          #container > div:nth-child(3) > div > div:nth-child(3) > ul > li > a > div {
+            overflow: hidden;
+            border: 1px solid #eee; }
+            #container > div:nth-child(3) > div > div:nth-child(3) > ul > li > a > div > img {
+              transition: ease-out .3s;
+              transition-property: initial;
+              transition-duration: 0.3s;
+              transition-timing-function: ease-out;
+              transition-delay: initial; }
+  #container > div:nth-child(3) > div > div:nth-child(4) {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    overflow: hidden; }
+    #container > div:nth-child(3) > div > div:nth-child(4) > div:nth-child(1) {
+      float: left; }
+      #container > div:nth-child(3) > div > div:nth-child(4) > div:nth-child(1) > ul {
+        background: #fff;
+        width: 190px;
+        padding: 24px 30px 30px; }
+        #container > div:nth-child(3) > div > div:nth-child(4) > div:nth-child(1) > ul > li {
+          margin-top: 20px; }
+          #container > div:nth-child(3) > div > div:nth-child(4) > div:nth-child(1) > ul > li > div {
+            padding-bottom: 2px;
+            border-bottom: 2px solid #bc338b;
+            position: relative; }
+            #container > div:nth-child(3) > div > div:nth-child(4) > div:nth-child(1) > ul > li > div > h5 {
+              letter-spacing: 2px; }
+            #container > div:nth-child(3) > div > div:nth-child(4) > div:nth-child(1) > ul > li > div > a {
+              position: absolute;
+              top: 0;
+              right: 0; }
+              #container > div:nth-child(3) > div > div:nth-child(4) > div:nth-child(1) > ul > li > div > a:hover {
+                color: #bc338b; }
+          #container > div:nth-child(3) > div > div:nth-child(4) > div:nth-child(1) > ul > li > ul > li {
+            padding-top: 10px; }
+            #container > div:nth-child(3) > div > div:nth-child(4) > div:nth-child(1) > ul > li > ul > li > a > div:nth-child(2) {
+              overflow: hidden;
+              position: relative; }
+              #container > div:nth-child(3) > div > div:nth-child(4) > div:nth-child(1) > ul > li > ul > li > a > div:nth-child(2) > p {
+                float: right; }
+    #container > div:nth-child(3) > div > div:nth-child(4) > div:nth-child(2) {
+      background-color: #fff;
+      float: left;
+      margin-left: 15px;
+      overflow: hidden;
+      width: 935px; }
+      #container > div:nth-child(3) > div > div:nth-child(4) > div:nth-child(2) > ul {
+        overflow: hidden;
+        border-bottom: 2px solid #e5e5e5; }
+        #container > div:nth-child(3) > div > div:nth-child(4) > div:nth-child(2) > ul > li {
+          float: left;
+          width: 100px;
+          height: 44px;
+          line-height: 48px;
+          font-weight: bold;
+          text-align: center;
+          border-left: 1px solid #fff;
+          border-right: 1px solid #fff; }
+      #container > div:nth-child(3) > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) {
+        padding: 30px 15px 30px 20px;
+        border-bottom: 1px solid #e5e5e5; }
+        #container > div:nth-child(3) > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > ul {
+          overflow: hidden; }
+          #container > div:nth-child(3) > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > ul > li {
+            float: left;
+            width: 25%;
+            height: 40px;
+            line-height: 16px; }
+      #container > div:nth-child(3) > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) {
+        width: 750px;
+        padding-top: 20px;
+        margin: 0 auto; }

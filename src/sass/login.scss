@@ -1,0 +1,121 @@
+#container{
+    // 3主体
+    >div:nth-child(2){
+        background-color:#BCECFA;
+        // 3.1核心容器
+        >div:nth-child(1){
+            width:1200px;
+            height:400px;
+            margin:0 auto;
+            padding-top:110px;
+            padding-bottom:110px;
+            // 3.1.1左部轮播图
+            >div:nth-child(1){
+                float:left;
+                width:720px;
+                height:400px;
+                background:url('../img/login_img/lunbotu1.jpg')
+            }
+            // 3.1.2右部轮播图
+            >div:nth-child(2){
+                float:left;
+                width:438px;
+                height:400px;
+                
+                // 3.1.2.1tab标签 
+                >div:nth-child(1){
+                    width:398px;
+                    height:31px;
+                    padding:0;
+                    padding-left:40px;
+                    padding-top:19px;
+                    background-color: #F5F8FA;
+                    >span{
+
+                        float:left;
+                        display:block;
+                        width:110px;
+                        height:30px;
+                        border:1px solid #F5F8FA;
+                        border-bottom:none;
+                        background-color: #F5F8FA;
+                        text-align:center;
+                        line-height:30px;
+                    }
+                    
+                }
+                // 3.1.2.2tab内容
+                >ul{
+                    >li:nth-child(1){
+
+                    }
+                    // （验证码）
+                    >li:nth-child(2){
+                        >div{
+                            position:relative;
+                            width:438px;
+                            height:350px;
+                            background-color:#FFFFFF;
+
+                            >div:nth-child(1){
+                                padding-left:40px;
+                                padding-top:50px;
+
+                                >input{
+                                    width:356px;
+                                    height:36px;
+                                }
+                            }
+
+                            >div:nth-child(2){
+                                overflow:hidden;
+                                padding-left:40px;
+                                padding-top:40px;
+
+                                >input{
+                                    float:left;
+                                    width:196px;
+                                    height:36px;
+                                }
+
+                                >span{
+                                    display:block;
+                                    float:left;
+                                    width:146px;
+                                    height:40px;
+                                    line-height:40px;
+                                    text-align:center;
+                                    background-color:#F5F5F5;
+                                    margin-left:10px;
+                                }
+                            }
+
+                            >button:nth-child(3){
+                                border:none;
+                                display:block;
+                                width:360px;
+                                height:40px;
+                                background-color:#BC338B;
+                                line-height:40px;
+                                text-align:center;
+                                margin:0 auto;
+                                margin-top:60px;
+                                color:#fff;
+                                font-size: 18px;
+                            }
+
+                            >a:nth-child(4){
+                                position:absolute;
+                                right:40px;
+                                bottom:40px;
+                            }
+                        }
+                    }
+                } 
+                
+                
+
+            }
+        }
+    }
+}

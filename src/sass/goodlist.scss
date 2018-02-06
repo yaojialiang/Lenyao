@@ -1,0 +1,285 @@
+#container{
+    // 3 主体
+    >div:nth-child(3){
+
+        background:#F5F5F5;
+        // 3.1核心容器
+        >div{
+            
+            // 3.1.1导航条
+            >div:nth-child(1){
+                width:1200px;
+                height:25px;
+                margin:0 auto;
+                padding-top: 15px;
+                >ul{
+
+                    >li{
+                        float:left;
+                        height: 25px;
+                        z-index: 1
+                    }
+                    >li:nth-child(1){
+
+                        >a{
+                            height: 14px;
+                            margin: 6px 0 0 -1px;
+                            padding: 0 14px;
+                        }
+                    }
+                    >li:nth-child(2){
+                        >a{
+                            padding: 0 30px 0 12px;
+                            height: 14px;
+                            margin: 6px 0 0 -1px;
+                            padding: 0 12px;
+                            border-left: 1px solid #999;
+                            border-right: 1px solid #999;
+                            z-index: 2;
+                        }
+                        >p{
+                            top: 24px;
+                            left: -1px;
+                            display: none;
+                            width: 150px;
+                            padding:15px;
+                            border: 1px solid #999;
+                            background: #fff;
+                            >a{
+                                display:inline-block;
+                                margin: 10px 10px 0;
+                            }
+                        }
+                    }
+                }
+            }
+
+            // 3.1.2 核心内容
+            >div:nth-child(2){
+                width:1200px;
+                margin:0 auto;
+                overflow:hidden;
+                padding-top:10px;
+
+                // 3.1.2.1筛选栏（左部）
+                >div:nth-child(1){
+                    background: #f5f5f5;
+                    float:left;
+                    >dl{
+                        width: 198px;
+                        border: 1px solid #dcdcdc;
+                        margin-bottom: 30px;
+                        padding-bottom: 30px;
+                        background: #fff;
+
+                        >dt{
+                            height: 36px;
+                            line-height: 36px;
+                            border-bottom: 15px solid #fff;
+                            font-size: 15px;
+                            background: #eee;
+                        }
+                        >dd{
+                            margin-top: 15px;
+                            padding: 0 0 10px 30px;
+                            >h4{
+                                margin-bottom: 10px;
+                            }
+                            >ul{
+                                >li{
+                                    display: block;
+                                    margin-bottom: 10px;
+                                    cursor: default;
+                                    >a{
+                                        display: inline-block;
+                                        height: 14px;
+                                        line-height: 14px;
+                                        padding-left: 20px;
+                                        color:#555;
+                                    }
+                                    >a:hover{
+                                        color: #bc338b
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                //3.1.2.2商品栏（右部）
+                >div:nth-child(2){
+                    width:985px;
+                    background:#fff;
+                    float:left;
+                    margin-left:10px;
+                    // 3.1.2.2.1商品栏标题
+                    >div:nth-child(1){
+                        position:relative;
+                        width:955px;
+                        height:49px;
+                        padding:0 15px;
+                        border-bottom:1px solid #555;
+                        >h4{
+                            float:left;
+                            line-height:49px;
+                        }
+                        >span{
+                            display:block;
+                            width:56px;
+                            height:14px;
+                            padding-left:20px;
+                            position:absolute;
+                            right:5px;
+                            top:5px;
+                            cursor:pointer;
+                            &::before{
+                                content:'';
+                                display:block;
+                                width:11px;
+                                height:14px;
+                                background:url('../img/goodlist_img/goodlistjingling.fw.png') 0 0;
+                                position:absolute;
+                                top:0px;
+                                left:0px;
+
+                            }
+                        }
+                        >span:hover{
+                            color:#BC338B;
+                        }
+                    }
+
+                    // 3.1.2.2.2本页加入数据包
+                    >div:nth-child(2){
+                        width:968px;
+                        height:18px;
+                        margin:0 auto;
+                        margin-top:20px;
+                        >a{
+                            position:relative;
+                            float:left;
+                            display:block;
+                            padding-left:20px;
+                            &::before{
+                                content:'';
+                                display:block;
+                                width:21px;
+                                height:18px;
+                                position:absolute;
+                                top:-5px;
+                                left:-5px;
+                                background:url('../img/goodlist_img/goodlistjingling.fw.png') -18px 0;
+                            }
+                        }
+
+                        >p{
+                            float:right;
+                            .num{
+                                color: #e52d88;
+                            }
+                            .page{
+                                color: #e52d88;
+                            }
+                        }
+                    }
+
+                    // 3.1.2.2.3筛选条件
+                    >div:nth-child(3){
+                        margin:0 auto;
+                        margin-top:10px;
+                        width:969px;
+                        height:34px;
+                        line-height: 34px;
+                        border: 1px solid #dcdcdc;
+
+                        >ul{
+                            float:left;
+                            >li{
+                                float:left;
+                                >a{
+                                    position:relative;
+                                    display:block;
+                                    width:28px;
+                                    height:34px;
+                                    padding:0 20px;
+                                    &::before{
+                                        content:'';
+                                        display:block;
+                                        width:8px;
+                                        height:13px;
+                                        background:url('../img/goodlist_img/goodlistjingling.fw.png') -68px -1px;
+                                        position:absolute;
+                                        top:10px;
+                                        left:51px;
+                                    }
+                                }
+                            }
+                            >li:nth-child(1){
+                                >a{
+                                    background:#BC338B;
+                                    color:#fff;
+                                    &::before{
+                                        background:url('../img/goodlist_img/goodlistjingling.fw.png') -54px 0px;
+                                        top:18px;
+                                    }
+                                }
+                            }
+                        }
+
+                        >div:nth-child(2){
+                            float:left;
+                            margin-left:10px;
+                            >input:nth-child(1){
+                                width:56px;
+                                height:22px;
+                            }
+                            >input:nth-child(3){
+                                width:56px;
+                                height:22px;
+                            }
+                            >button:nth-child(4){
+                                width:56px;
+                                height:22px;
+                            }
+                        }
+
+                        >div:nth-child(3){
+                            margin-left:30px;
+                            float:left;
+                        }
+
+                        >div:nth-child(4){
+                            float:right;
+                            padding:0 30px;
+                            border-left:1px solid #dcdcdc;
+                            position:relative;
+                            .up{
+                                content:'';
+                                display:block;
+                                width:7px;
+                                height:11px;
+                                background:url('../img/goodlist_img/goodlistjingling.fw.png') 0 -26px;
+                                position:absolute;
+                                top:11px;
+                                left:11px;
+                            }
+                            .down{
+                                content:'';
+                                display:block;
+                                width:7px;
+                                height:11px;
+                                background:url('../img/goodlist_img/goodlistjingling.fw.png') 0 -44px;
+                                position:absolute;
+                                top:11px;
+                                left:77px;
+                            }
+                        }
+
+                    }
+
+
+                } 
+            }
+        }
+    }
+}
