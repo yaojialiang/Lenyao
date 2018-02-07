@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2018-01-31 19:34:07
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-02-06 19:18:30
+* @Last Modified time: 2018-02-07 20:54:54
 */
 
 var gulp = require('gulp');
@@ -10,7 +10,7 @@ var sass = require('gulp-sass');
 
 // 
 gulp.task('default',function(){
-    gulp.src('./src/sass/login.scss')
+    gulp.src('./src/sass/goodlist.scss')
 
     .pipe(sass({outputStyle:''}).on('error',sass.logError))
 
@@ -18,7 +18,7 @@ gulp.task('default',function(){
 })
 
 gulp.task('jtsass',function(){
-    gulp.watch('./src/sass/login.scss',['default']);
+    gulp.watch('./src/sass/goodlist.scss',['default']);
 })
 
 // //引入concat插件

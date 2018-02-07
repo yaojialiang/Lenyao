@@ -10,7 +10,8 @@
         >div{
             width:1200px;
             margin:0 auto;
-            overflow:hidden;
+            height:36px;
+            // overflow:hidden;
 
             /*2.1.1 左部*/
             >div:nth-child(1){
@@ -30,7 +31,7 @@
             >div:nth-child(2){
                 float:left;
                 ul{
-                    li{
+                    >li{
                         float:left;
                         a{  
                             display:block;
@@ -47,10 +48,25 @@
                         
 
                     }
-                    li:nth-child(5){
+                    >li:nth-child(5){
                             position:relative;
+                            >ul{
+                                display:none;
+                                position:absolute;
+                                left: 0;
+                                top: 36px;
+                                width: 111px;
+                                line-height: 30px;
+                                background: #fff;
+                                >li:hover{
+                                    background:#BC338B;
+                                    >a{
+                                       color:#fff; 
+                                    }
+                                }
+                            }
                     }
-                    li:nth-child(5) a::after{
+                    >li:nth-child(5) >a::after{
                         content:'';
                         display:block;
                         width:10px;
@@ -60,10 +76,25 @@
                         top:16px;
                         left:95px;
                     }
-                    li:nth-child(6){
+                    >li:nth-child(6){
                             position:relative;
+                            >ul{
+                                display:none;
+                                position:absolute;
+                                left: 0;
+                                top: 36px;
+                                width: 111px;
+                                line-height: 30px;
+                                background: #fff;
+                                >li:hover{
+                                    background:#BC338B;
+                                    >a{
+                                       color:#fff; 
+                                    }
+                                }
+                            }
                     }
-                    li:nth-child(6) a::after{
+                    >li:nth-child(6) >a::after{
                         content:'';
                         display:block;
                         width:10px;
@@ -89,9 +120,9 @@
 
             /*3.1.1轮播图容器*/ 
             >div:nth-child(1){
-                width:100%;
+                width:800px;
                 height:400px;
-                background:green;
+                // background:green;
             }
 
             /*3.1.2左边栏*/
@@ -105,6 +136,8 @@
                 // background:#EFEDED;
                 // opacity:0.9;
                 background:rgba(239,237,237,0.9);
+
+                // 二级栏
                 >ul{
                     >li:nth-child(1){ 
                         >div:nth-child(1){
@@ -236,6 +269,176 @@
                             float: left;
                             width: 70%;
                             margin: 0px 15%;
+                        }
+                    }
+                }
+
+                 /*三级栏*/ 
+                >div{
+                    /*三级栏公共样式*/
+                    >div{
+                        
+                        /*三级栏商品列表公共样式*/
+                        >div:nth-child(1){
+                            position:absolute;
+                            top:5px;
+                            left:200px;
+                            padding:15px;
+                            background:#fff;
+                            float:left;
+                            overflow:hidden;
+                            width:510px;
+                            height:267px;
+                            >ol{
+
+                                padding-top: 15px;
+                                line-height: 20px;
+                                content: "";
+                                display: table;
+                                clear: both;
+                                >h4{
+                                    width: 70px;
+                                    margin-left: 20px;
+                                    float: left;
+                                    >a{
+                                        font-weight: 700;
+                                        white-space: nowrap;
+                                        display: inline;
+                                        letter-spacing: 1px;
+                                        margin-right: 10px;
+                                    }
+                                }
+                                >li{
+                                    float:left;
+                                    width: 415px;
+                                    padding-bottom: 5px;
+                                    border-bottom: 1px dashed #999;
+                                    >a{
+                                        color:#555;
+                                    }
+                                }
+                            }
+                        }
+
+                        /*三级栏商品图片公共样式*/
+                        >div:nth-child(2){
+                           width:282px;
+                           position:absolute;
+                           top:10px;
+                           left:722px;
+                           background:#fff;
+                           border-left:5px solid #F5F5F5;
+                           >a{
+                                float:left;
+                                display:block;
+                                width:130px;
+                                height:92px;
+                           } 
+                        }
+                    }
+
+                    /*时尚饰品三级栏*/ 
+                    >div:nth-child(1){
+                        display:none;
+                        /*时尚饰品三级栏商品列表*/ 
+                        >div:nth-child(1){
+                        }
+                        /*时尚饰品三级栏商品图片*/ 
+                        >div:nth-child(2){
+                            >a:nth-child(1){
+                                background:url('../img/sortnav_img/bracelet1.jpg')
+                            }
+                            >a:nth-child(2){
+                                background:url('../img/sortnav_img/bracelet2.jpg')
+                            }
+                            >a:nth-child(3){
+                                background:url('../img/sortnav_img/bracelet3.jpg')
+                            }
+                            >a:nth-child(4){
+                                background:url('../img/sortnav_img/bracelet4.jpg')
+                            }
+                            >a:nth-child(5){
+                                background:url('../img/sortnav_img/bracelet5.jpg')
+                            }
+                            >a:nth-child(6){
+                                background:url('../img/sortnav_img/bracelet6.jpg')
+                            }
+                            >a:nth-child(7){
+                                background:url('../img/sortnav_img/bracelet7.jpg')
+                            }
+                            >a:nth-child(8){
+                                background:url('../img/sortnav_img/bracelet8.jpg')
+                            }
+                        }
+                    }
+
+                    /*纯银首饰三级栏*/ 
+                    >div:nth-child(2){
+                        display:none;
+                        /*纯银首饰三级栏商品列表*/ 
+                        >div:nth-child(1){
+                        }
+                        /*纯银首饰三级栏商品图片*/ 
+                        >div:nth-child(2){
+                            >a:nth-child(1){
+                                background:url('../img/sortnav_img/jewelry1.jpg')
+                            }
+                            >a:nth-child(2){
+                                background:url('../img/sortnav_img/jewelry2.jpg')
+                            }
+                            >a:nth-child(3){
+                                background:url('../img/sortnav_img/jewelry3.jpg')
+                            }
+                            >a:nth-child(4){
+                                background:url('../img/sortnav_img/jewelry4.jpg')
+                            }
+                            >a:nth-child(5){
+                                background:url('../img/sortnav_img/jewelry5.jpg')
+                            }
+                            >a:nth-child(6){
+                                background:url('../img/sortnav_img/jewelry6.jpg')
+                            }
+                            >a:nth-child(7){
+                                background:url('../img/sortnav_img/jewelry7.jpg')
+                            }
+                            >a:nth-child(8){
+                                background:url('../img/sortnav_img/jewelry8.jpg')
+                            }
+                        }
+                    }
+
+                    /*品牌手表三级栏*/ 
+                    >div:nth-child(3){
+                        display:none;
+                        /*品牌手表三级栏商品列表*/ 
+                        >div:nth-child(1){
+                        }
+                        /*品牌手表三级栏商品图片*/ 
+                        >div:nth-child(2){
+                            >a:nth-child(1){
+                                background:url('../img/sortnav_img/watch1.jpg')
+                            }
+                            >a:nth-child(2){
+                                background:url('../img/sortnav_img/watch2.jpg')
+                            }
+                            >a:nth-child(3){
+                                background:url('../img/sortnav_img/watch3.jpg')
+                            }
+                            >a:nth-child(4){
+                                background:url('../img/sortnav_img/watch4.jpg')
+                            }
+                            >a:nth-child(5){
+                                background:url('../img/sortnav_img/watch5.jpg')
+                            }
+                            >a:nth-child(6){
+                                background:url('../img/sortnav_img/watch6.jpg')
+                            }
+                            >a:nth-child(7){
+                                background:url('../img/sortnav_img/watch7.jpg')
+                            }
+                            >a:nth-child(8){
+                                background:url('../img/sortnav_img/watch8.jpg')
+                            }
                         }
                     }
                 }
@@ -541,6 +744,10 @@
                                         background:url('../img/index_img/goods1.jpg') no-repeat;
                                         background-size:cover;
                                         border: 1px solid #dcdcdc;
+                                        >img{
+                                            width:225px;
+                                            height:192px;
+                                        }
                                     }
                                     >a:nth-child(2){
                                         display:block;
@@ -552,6 +759,7 @@
                                         text-overflow: ellipsis;
                                         white-space: nowrap;
                                         margin-top: 10px;
+                                        text-align: center;
                                     }
                                     >a:nth-child(3){
                                         display:block;
@@ -661,6 +869,10 @@
                                         background:url('../img/index_img/goods1.jpg') no-repeat;
                                         background-size:cover;
                                         border: 1px solid #dcdcdc;
+                                        >img{
+                                            width:225px;
+                                            height:192px;
+                                        }
                                     }
                                     >a:nth-child(2){
                                         display:block;
@@ -672,6 +884,7 @@
                                         text-overflow: ellipsis;
                                         white-space: nowrap;
                                         margin-top: 10px;
+                                        text-align:center;
                                     }
                                     >a:nth-child(3){
                                         display:block;

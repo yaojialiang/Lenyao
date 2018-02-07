@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="./css/base.css" />
         <link rel="stylesheet" type="text/css" href="./css/index.css" />
+        <link rel="stylesheet" type="text/css" href="lib/jquery.lxCarousel/jquery.lxCarousel.css" />
         <script src ="js/require.js" data-main ="js/index"></script>
     </head>
     <body>
@@ -35,8 +36,40 @@
                             <li><a href="">热销趋势</a></li>
                             <li><a href="">品牌定制</a></li>
                             <li><a href="">专栏推荐</a></li>
-                            <li><a href="">促销优惠</a></li>
-                            <li><a href="">适销平台</a></li>
+                            <li class="cuxiao">
+                                <a href="">促销优惠</a>
+                                <ul>
+                                    <li>
+                                        <a>本周特惠</a>
+                                    </li>
+                                    <li>
+                                        <a>买多省多</a>
+                                    </li>
+                                    <li>
+                                        <a>一口价</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="shixiao">
+                                <a href="">适销平台</a>
+                                <ul>
+                                        <li>
+                                            <a>Wish</a>
+                                        </li>
+                                        <li>
+                                            <a>Ebay</a>
+                                        </li>
+                                        <li>
+                                            <a>Amazon</a>
+                                        </li>
+                                        <li>
+                                            <a>Aliexpress</a>
+                                        </li>
+                                        <li>
+                                            <a>Lazada</a>
+                                        </li>
+                                </ul>
+                            </li>
                             <li><a href="">跨境资讯</a></li>
                             <li><a href="">关于我们</a></li>
                         </ul>
@@ -52,14 +85,15 @@
                 <div>
 
                     <!-- 3.1.1轮播图容器 -->
-                    <div>
+                    <div class="banner">
                         
                     </div> 
 
                     <!-- 3.1.2左边栏 -->
                     <div>
-                        <ul>
-                            <li>
+                        <!-- 二级栏 -->
+                        <ul class="erji">
+                            <li class='erjilan'>
                                 <div>
                                     <a href="">时尚饰品</a>
                                     <div>
@@ -78,7 +112,7 @@
                                 </div>
                                 <div></div>
                             </li>
-                            <li>
+                            <li class='erjilan'>
                                 <div>
                                     <a href="">纯银首饰</a>
                                     <div>
@@ -94,7 +128,7 @@
                                 </div>
                                 <div></div>
                             </li>
-                            <li>
+                            <li class='erjilan'>
                                 <div>
                                     <a href="">品牌手表</a>
                                     <div>
@@ -106,6 +140,216 @@
                                 <div></div>
                             </li>
                         </ul>
+
+                        <!-- 三级栏 -->
+                        <div class="sanji">
+                                <!-- 时尚饰品三级栏 -->
+                                <div class="sanjilan">
+                                    <!-- 时尚饰品三级栏商品列表 -->
+                                    <div>
+                                                <ol>
+                                                    <h4><a>戒指分类</a></h4>
+                                                    <li>
+                                                            <a href="">纯银戒指</a>
+                                                            <a href="">镀玫瑰金戒指</a>
+                                                            <a href="">钛钢戒指</a>
+                                                            <a href="">情侣对戒</a>
+                                                            <a href="">镀银戒指</a>
+                                                            <a href="">男士戒指</a>
+                                                            <a href="">女士戒指</a>
+                                                            <a href="">镀白金戒指</a>
+                                                            <a href="">镀黄金戒指</a>
+                                                    </li>
+                                                </ol>
+                                                <ol>
+                                                    <h4><a>项链分类</a></h4>
+                                                    <li>
+                                                            <a href="">纯银项链</a>
+                                                            <a href="">18K项链</a>
+                                                            <a href="">镀银项链</a>
+                                                            <a href="">钛钢项链</a>
+                                                            <a href="">民族风项链</a>
+                                                            <a href="">镀玫瑰金</a>
+                                                    </li>
+                                                </ol>
+                                                <ol>
+                                                    <h4><a>耳饰分类</a></h4>
+                                                    <li>
+                                                            <a href="">纯银耳饰</a>
+                                                            <a href="">18K耳饰</a>
+                                                            <a href="">镀银耳饰</a>
+                                                            <a href="">耳钉</a>
+                                                            <a href="">耳钩+耳坠</a>
+                                                            <a href="">耳夹+耳扣</a>
+                                                            <a href="">耳圈</a>
+                                                    </li>
+                                                </ol>
+                                                <ol>
+                                                    <h4><a>手镯分类</a></h4>
+                                                    <li>
+                                                            <a href="">纯银手镯</a>
+                                                            <a href="">18K手镯</a>
+                                                            <a href="">K金手镯</a>
+                                                            <a href="">镀银手镯</a>
+                                                            <a href="">男士手镯</a>
+                                                            <a href="">女士手镯</a>
+                                                    </li>
+                                                </ol>
+                                                <ol>
+                                                    <h4><a>手链分类</a></h4>
+                                                    <li>
+                                                            <a href="">纯银手链</a>
+                                                            <a href="">18K手链</a>
+                                                            <a href="">镀银手链</a>
+                                                            <a href="">钛钢手链</a>
+                                                            <a href="">男士手链</a>
+                                                            <a href="">女士手链</a>
+                                                    </li>
+                                                </ol>
+                                                <ol>
+                                                    <h4><a>脚链分类</a></h4>
+                                                    <li>
+                                                            <a href="">镀银脚链</a>
+                                                            <a href="" >纯银脚链</a>
+                                                            <a href="" >水晶脚链</a>
+                                                            <a href="">镀黄金脚链</a>
+                                                    </li>
+                                                </ol>
+                                                <ol>
+                                                    <h4><a>套装分类</a></h4>
+                                                    <li>
+                                                            <a href="">时尚K金</a>
+                                                            <a href="">K金锆石类</a>
+                                                            <a href="">时尚银饰</a>
+                                                            <a href="">婚饰系列</a>
+                                                            <a href="">爆款系列</a>
+                                                    </li>
+                                                </ol>
+                                    </div>
+                                    
+                                    <!-- 时尚饰品三级栏商品图片 -->
+                                    <div>
+                                            <a href=""><img></a>
+                                            <a href=""><img></a>
+                                            <a href=""><img></a>
+                                            <a href=""><img></a>
+                                            <a href=""><img></a>
+                                            <a href=""><img></a>
+                                            <a href=""><img></a>
+                                            <a href=""><img></a>
+                                    </div>
+                                </div>
+
+                                <!-- 纯银首饰三级栏 -->
+                                <div class="sanjilan">
+                                    <!-- 纯银首饰三级栏商品列表 -->
+                                    <div>
+                                        <ol>
+                                            <h4><a>分类</a></h4>
+                                            <li>
+                                                    <a href="">纯银戒指</a>
+                                                    <a href="">纯银项链</a>
+                                                    <a href="">纯银耳饰</a>
+                                                    <a href="">纯银手链</a>
+                                                    <a href="">纯银手镯</a>
+                                                    <a href="">纯银脚链</a>
+                                                    <a href="">纯银配件</a>
+                                                    <a href="">纯银套装</a>
+                                            </li>
+                                        </ol>
+                                        <ol>
+                                            <h4><a>平台</a></h4>
+                                            <li>
+                                                    <a href="">Wish</a>
+                                                    <a href="">Aliexpress</a>
+                                                    <a href="">Amazon</a>
+                                                    <a href="">Ebay</a>
+                                                    <a href="">Lazada</a>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                    
+                                    <!-- 时尚饰品三级栏商品图片 -->
+                                    <div>
+                                        <a href=""><img></a>
+                                        <a href=""><img></a>
+                                        <a href=""><img></a>
+                                        <a href=""><img></a>
+                                        <a href=""><img></a>
+                                        <a href=""><img></a>
+                                        <a href=""><img></a>
+                                        <a href=""><img></a>
+                                    </div>
+                                            
+                                </div>
+
+                                <!-- 品牌手表三级栏 -->             
+                                <div class="sanjilan">
+                                    <!-- 纯银首饰三级栏商品列表 -->
+                                    <div>
+                                        <ol>
+                                            <h4><a>腕表分类</a></h4>
+                                            <li>
+                                                    <a href="">石英手表</a>
+                                                    <a href="">电子手表</a>
+                                                    <a href="">机械表</a>
+                                                    <a href="">女士手表</a>
+                                                    <a href="">男士手表</a>
+                                                    <a href="">情侣手表</a>
+                                                    <a href="">中性手表</a>
+                                                    <a href="">学生手表</a>
+                                            </li>
+                                        </ol>
+                                        <ol>
+                                            <h4><a>配件分类</a></h4>
+                                            <li>
+                                                    <a href="">表带</a>
+                                                    <a href="">表盒</a>
+                                            </li>
+                                        </ol>
+                                        <ol>
+                                            <h4><a>智能手环</a></h4>
+                                            <li>
+                                                    <a href="">博之轮智能手环</a>
+                                                    <a href="">威妮华智能手环</a>
+                                            </li>
+                                        </ol>
+                                        <ol>
+                                            <h4><a>品牌分类</a></h4>
+                                            <li>
+                                                    <a href="">GAIETY</a>
+                                                    <a href="">魅族</a>
+                                                    <a href="">卡尼诺</a>
+                                                    <a href="">多姆DOM</a>
+                                                    <a href="">好时佳HOSKA</a>
+                                                    <a href="">莱宾吉LIEBIG</a>
+                                                    <a href="">欧镭OULM</a>
+                                                    <a href="">邦顿bestdon</a>
+                                                    <a href="">时刻美SKmei</a>
+                                                    <a href="">丽梭仕</a>
+                                                    <a href="">宝利濠</a>
+                                                    <a href="">奥利妮onlyou</a>
+                                                    <a href="">威得</a>
+                                                    <a href="">Lvpai</a>
+                                                    <a href="">多雅duoya</a>
+                                                    <a href="">铁可tieke</a>
+                                                    <a href="">辛格xinge</a>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                    <!-- 纯银首饰三级栏商品图片 -->
+                                    <div>
+                                            <a href=""><img></a>
+                                            <a href=""><img></a>
+                                            <a href=""><img></a>
+                                            <a href=""><img></a>
+                                            <a href=""><img></a>
+                                            <a href=""><img></a>
+                                            <a href=""><img></a>
+                                            <a href=""><img></a>
+                                    </div>
+                                </div>  
+                        </div>  
                     </div>
 
                     <!-- 3.1.3右边栏 -->
@@ -209,8 +453,8 @@
 
                                 <!-- 3.2.2.1.2.2商品栏右部 -->
                                 <div>
-                                    <ul>
-                                        <li>
+                                    <ul class="newproduct">
+                                        <!-- <li>
                                             <a href=""></a>
                                             <a href="">又一银 水滴钻石手链 手饰批发商 LKNSPCH488</a>
                                             <a href="">价格登录可见</a>
@@ -249,7 +493,7 @@
                                             <a href=""></a>
                                             <a href="">又一银 水滴钻石手链 手饰批发商 LKNSPCH488</a>
                                             <a href="">价格登录可见</a>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </div>
 
@@ -264,7 +508,7 @@
                                 
                                 <!-- 3.2.2.2.1.1标题栏左部 -->
                                 <div>
-                                    <h2>新品推荐</h2>
+                                    <h2>平台爆款</h2>
                                     <p>周周上新好货不断</p>
                                 </div>
 
@@ -291,8 +535,8 @@
 
                                 <!-- 3.2.2.2.2.2商品栏右部 -->
                                 <div>
-                                    <ul>
-                                        <li>
+                                    <ul class="hotstyle">
+                                        <!-- <li>
                                             <a href=""></a>
                                             <a href="">又一银 水滴钻石手链 手饰批发商 LKNSPCH488</a>
                                             <a href="">价格登录可见</a>
@@ -331,7 +575,7 @@
                                             <a href=""></a>
                                             <a href="">又一银 水滴钻石手链 手饰批发商 LKNSPCH488</a>
                                             <a href="">价格登录可见</a>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </div>
 

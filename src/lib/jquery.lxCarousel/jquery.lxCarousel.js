@@ -67,13 +67,65 @@
 				$ul = $('<ul/>')
 
 				var html = $.map(opt.imgs,function(url){
-					return '<li><img src="'+ url +'"/></li>';
+					if(opt.type=='horizontal'){
+						return '<li style="float:left"><img src="'+ url +'"/></li>';
+					}else{
+						return '<li><img src="'+ url +'"/></li>';
+					}
+					
 				}).join('\n');
 
 				$ul.html(html);
 
+				if(opt.type=='horizontal'){
+					$ul.css({width:opt.width*opt.imgs.length})
+				}
+
+
 				$this.append($ul);
 
+				// 添加前进按钮
+				$prev=$('<span/>').css({display:'block',width:'27px',height:'44px',background:'url("img/index_img/xiangqian.fw.png")',position:'absolute',left:'0px',top:'178px'});
+				$this.append($prev);
+				$prev.on('click',function(){
+					opt.index--;
+					if(opt.index >= opt.len){
+						opt.index = 0;
+					}else if(opt.index<0){
+						opt.index = opt.len-1
+					}
+
+					if(opt.type=='vertical'){
+						var target = -opt.index*opt.height;
+
+						$ul.animate({top:target});
+					}else{
+						var target = -opt.index*opt.width;
+
+						$ul.animate({left:target});
+					}
+				})
+				// 添加后退按钮
+				$next=$('<span/>').css({display:'block',width:'27px',height:'44px',background:'url("img/index_img/xianghou.fw.png")',position:'absolute',left:'773px',top:'178px'});
+				$this.append($next);
+				$next.on('click',function(){
+					opt.index++;
+					if(opt.index >= opt.len){
+						opt.index = 0;
+					}else if(opt.index<0){
+						opt.index = opt.len-1
+					}
+
+					if(opt.type=='vertical'){
+						var target = -opt.index*opt.height;
+
+						$ul.animate({top:target});
+					}else{
+						var target = -opt.index*opt.width;
+
+						$ul.animate({left:target});
+					}
+				})
 			}
 
 			function show(){
@@ -83,10 +135,19 @@
 					opt.index = opt.len-1
 				}
 
-				var target = -opt.index*opt.height;
+				if(opt.type=='vertical'){
+					var target = -opt.index*opt.height;
 
-				$ul.animate({top:target});
+					$ul.animate({top:target});
+				}else{
+					var target = -opt.index*opt.width;
+
+					$ul.animate({left:target});
+				}
+				
 			}
+
+			
 		
 		
 		});

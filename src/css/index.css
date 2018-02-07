@@ -9,7 +9,7 @@
     #container > nav:nth-child(2) > div {
       width: 1200px;
       margin: 0 auto;
-      overflow: hidden;
+      height: 36px;
       /*2.1.1 左部*/
       /*2.1.2右部*/ }
       #container > nav:nth-child(2) > div > div:nth-child(1) {
@@ -24,9 +24,9 @@
           color: #fff; }
       #container > nav:nth-child(2) > div > div:nth-child(2) {
         float: left; }
-        #container > nav:nth-child(2) > div > div:nth-child(2) ul li {
+        #container > nav:nth-child(2) > div > div:nth-child(2) ul > li {
           float: left; }
-          #container > nav:nth-child(2) > div > div:nth-child(2) ul li a {
+          #container > nav:nth-child(2) > div > div:nth-child(2) ul > li a {
             display: block;
             width: 112px;
             height: 36px;
@@ -34,11 +34,23 @@
             color: #555;
             text-align: center;
             line-height: 36px; }
-          #container > nav:nth-child(2) > div > div:nth-child(2) ul li a:hover {
+          #container > nav:nth-child(2) > div > div:nth-child(2) ul > li a:hover {
             color: #BC8CD3; }
-        #container > nav:nth-child(2) > div > div:nth-child(2) ul li:nth-child(5) {
+        #container > nav:nth-child(2) > div > div:nth-child(2) ul > li:nth-child(5) {
           position: relative; }
-        #container > nav:nth-child(2) > div > div:nth-child(2) ul li:nth-child(5) a::after {
+          #container > nav:nth-child(2) > div > div:nth-child(2) ul > li:nth-child(5) > ul {
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 36px;
+            width: 111px;
+            line-height: 30px;
+            background: #fff; }
+            #container > nav:nth-child(2) > div > div:nth-child(2) ul > li:nth-child(5) > ul > li:hover {
+              background: #BC338B; }
+              #container > nav:nth-child(2) > div > div:nth-child(2) ul > li:nth-child(5) > ul > li:hover > a {
+                color: #fff; }
+        #container > nav:nth-child(2) > div > div:nth-child(2) ul > li:nth-child(5) > a::after {
           content: '';
           display: block;
           width: 10px;
@@ -47,9 +59,21 @@
           position: absolute;
           top: 16px;
           left: 95px; }
-        #container > nav:nth-child(2) > div > div:nth-child(2) ul li:nth-child(6) {
+        #container > nav:nth-child(2) > div > div:nth-child(2) ul > li:nth-child(6) {
           position: relative; }
-        #container > nav:nth-child(2) > div > div:nth-child(2) ul li:nth-child(6) a::after {
+          #container > nav:nth-child(2) > div > div:nth-child(2) ul > li:nth-child(6) > ul {
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 36px;
+            width: 111px;
+            line-height: 30px;
+            background: #fff; }
+            #container > nav:nth-child(2) > div > div:nth-child(2) ul > li:nth-child(6) > ul > li:hover {
+              background: #BC338B; }
+              #container > nav:nth-child(2) > div > div:nth-child(2) ul > li:nth-child(6) > ul > li:hover > a {
+                color: #fff; }
+        #container > nav:nth-child(2) > div > div:nth-child(2) ul > li:nth-child(6) > a::after {
           content: '';
           display: block;
           width: 10px;
@@ -71,16 +95,16 @@
       /*3.1.2左边栏*/
       /*3.1.3右边栏*/ }
       #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) {
-        width: 100%;
-        height: 400px;
-        background: green; }
+        width: 800px;
+        height: 400px; }
       #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) {
         position: absolute;
         top: 0;
         left: 40px;
         width: 200px;
         height: 402px;
-        background: rgba(239, 237, 237, 0.9); }
+        background: rgba(239, 237, 237, 0.9);
+        /*三级栏*/ }
         #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > ul > li:nth-child(1) > div:nth-child(1) {
           padding: 12px; }
           #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > ul > li:nth-child(1) > div:nth-child(1) > a {
@@ -183,6 +207,119 @@
           float: left;
           width: 70%;
           margin: 0px 15%; }
+        #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div {
+          /*三级栏公共样式*/
+          /*时尚饰品三级栏*/
+          /*纯银首饰三级栏*/
+          /*品牌手表三级栏*/ }
+          #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div {
+            /*三级栏商品列表公共样式*/
+            /*三级栏商品图片公共样式*/ }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div > div:nth-child(1) {
+              position: absolute;
+              top: 5px;
+              left: 200px;
+              padding: 15px;
+              background: #fff;
+              float: left;
+              overflow: hidden;
+              width: 510px;
+              height: 267px; }
+              #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div > div:nth-child(1) > ol {
+                padding-top: 15px;
+                line-height: 20px;
+                content: "";
+                display: table;
+                clear: both; }
+                #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div > div:nth-child(1) > ol > h4 {
+                  width: 70px;
+                  margin-left: 20px;
+                  float: left; }
+                  #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div > div:nth-child(1) > ol > h4 > a {
+                    font-weight: 700;
+                    white-space: nowrap;
+                    display: inline;
+                    letter-spacing: 1px;
+                    margin-right: 10px; }
+                #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div > div:nth-child(1) > ol > li {
+                  float: left;
+                  width: 415px;
+                  padding-bottom: 5px;
+                  border-bottom: 1px dashed #999; }
+                  #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div > div:nth-child(1) > ol > li > a {
+                    color: #555; }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div > div:nth-child(2) {
+              width: 282px;
+              position: absolute;
+              top: 10px;
+              left: 722px;
+              background: #fff;
+              border-left: 5px solid #F5F5F5; }
+              #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div > div:nth-child(2) > a {
+                float: left;
+                display: block;
+                width: 130px;
+                height: 92px; }
+          #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(1) {
+            display: none;
+            /*时尚饰品三级栏商品列表*/
+            /*时尚饰品三级栏商品图片*/ }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) {
+              background: url("../img/sortnav_img/bracelet1.jpg"); }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(2) > a:nth-child(2) {
+              background: url("../img/sortnav_img/bracelet2.jpg"); }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(2) > a:nth-child(3) {
+              background: url("../img/sortnav_img/bracelet3.jpg"); }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(2) > a:nth-child(4) {
+              background: url("../img/sortnav_img/bracelet4.jpg"); }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(2) > a:nth-child(5) {
+              background: url("../img/sortnav_img/bracelet5.jpg"); }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(2) > a:nth-child(6) {
+              background: url("../img/sortnav_img/bracelet6.jpg"); }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(2) > a:nth-child(7) {
+              background: url("../img/sortnav_img/bracelet7.jpg"); }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(2) > a:nth-child(8) {
+              background: url("../img/sortnav_img/bracelet8.jpg"); }
+          #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(2) {
+            display: none;
+            /*纯银首饰三级栏商品列表*/
+            /*纯银首饰三级栏商品图片*/ }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(2) > a:nth-child(1) {
+              background: url("../img/sortnav_img/jewelry1.jpg"); }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(2) > a:nth-child(2) {
+              background: url("../img/sortnav_img/jewelry2.jpg"); }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(2) > a:nth-child(3) {
+              background: url("../img/sortnav_img/jewelry3.jpg"); }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(2) > a:nth-child(4) {
+              background: url("../img/sortnav_img/jewelry4.jpg"); }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(2) > a:nth-child(5) {
+              background: url("../img/sortnav_img/jewelry5.jpg"); }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(2) > a:nth-child(6) {
+              background: url("../img/sortnav_img/jewelry6.jpg"); }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(2) > a:nth-child(7) {
+              background: url("../img/sortnav_img/jewelry7.jpg"); }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(2) > a:nth-child(8) {
+              background: url("../img/sortnav_img/jewelry8.jpg"); }
+          #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(3) {
+            display: none;
+            /*品牌手表三级栏商品列表*/
+            /*品牌手表三级栏商品图片*/ }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(3) > div:nth-child(2) > a:nth-child(1) {
+              background: url("../img/sortnav_img/watch1.jpg"); }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(3) > div:nth-child(2) > a:nth-child(2) {
+              background: url("../img/sortnav_img/watch2.jpg"); }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(3) > div:nth-child(2) > a:nth-child(3) {
+              background: url("../img/sortnav_img/watch3.jpg"); }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(3) > div:nth-child(2) > a:nth-child(4) {
+              background: url("../img/sortnav_img/watch4.jpg"); }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(3) > div:nth-child(2) > a:nth-child(5) {
+              background: url("../img/sortnav_img/watch5.jpg"); }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(3) > div:nth-child(2) > a:nth-child(6) {
+              background: url("../img/sortnav_img/watch6.jpg"); }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(3) > div:nth-child(2) > a:nth-child(7) {
+              background: url("../img/sortnav_img/watch7.jpg"); }
+            #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(3) > div:nth-child(2) > a:nth-child(8) {
+              background: url("../img/sortnav_img/watch8.jpg"); }
       #container > div:nth-child(3) > div:nth-child(1) > div:nth-child(3) {
         position: absolute;
         top: 0;
@@ -418,6 +555,9 @@
                   background: url("../img/index_img/goods1.jpg") no-repeat;
                   background-size: cover;
                   border: 1px solid #dcdcdc; }
+                  #container > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > ul > li > a:nth-child(1) > img {
+                    width: 225px;
+                    height: 192px; }
                 #container > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > ul > li > a:nth-child(2) {
                   display: block;
                   font-size: 14px;
@@ -427,7 +567,8 @@
                   overflow: hidden;
                   text-overflow: ellipsis;
                   white-space: nowrap;
-                  margin-top: 10px; }
+                  margin-top: 10px;
+                  text-align: center; }
                 #container > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > ul > li > a:nth-child(3) {
                   display: block;
                   font-size: 14px;
@@ -510,6 +651,9 @@
                   background: url("../img/index_img/goods1.jpg") no-repeat;
                   background-size: cover;
                   border: 1px solid #dcdcdc; }
+                  #container > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > ul > li > a:nth-child(1) > img {
+                    width: 225px;
+                    height: 192px; }
                 #container > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > ul > li > a:nth-child(2) {
                   display: block;
                   font-size: 14px;
@@ -519,7 +663,8 @@
                   overflow: hidden;
                   text-overflow: ellipsis;
                   white-space: nowrap;
-                  margin-top: 10px; }
+                  margin-top: 10px;
+                  text-align: center; }
                 #container > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > ul > li > a:nth-child(3) {
                   display: block;
                   font-size: 14px;
