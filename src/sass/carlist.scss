@@ -117,7 +117,77 @@
 
             // 3.1.2商品清单
             >div:nth-child(2){
+                >ul{
+                    >li{
+                        width:1200px;
+                        margin:0 auto;
+                        >div{
+                            border:2px solid #E1E9EF;
+                            >p{
+                                height:36px;
+                                background-color:#F5F8FA;
+                                >input{
+                                    margin-left:8px;
+                                    margin-top:8px;
+                                }
+                                >span:nth-child(2){
+                                    margin-left:8px;
+                                    margin-top:8px;
+                                }
+                                >span:nth-child(3){
+                                    float:right;
+                                    margin-top:8px;
+                                    margin-right:8px;
+                                    position:relative;
+                                    &::before{
+                                        content:'';
+                                        display:block;
+                                        width:11px;
+                                        height:14px;
+                                        position:absolute;
+                                        top:0;
+                                        left:-16px;
+                                        background:url('../img/carlist_img/carlistjingling.fw.png')
+                                    }
+                                }
+                            }
+                            >ul{
+                                height:115px;
+                                >li{
+                                    
+                                }
+                                >li:nth-child(1){
+                                    float:left;
+                                    height:115px;
+                                    border-right:1px solid #E1E9EF;
+                                    >img{
+                                        display:block;
+                                        margin-left:15px;
+                                        width:85px;
+                                        height:97px;
+                                        float:left;
+                                    }
+                                    >p:nth-child(2){
+                                        float:left;
+                                        width:100px;
 
+                                        margin-top:40px;
+                                        margin-left:10px;
+                                    }
+                                    >p:nth-child(3){
+                                        float:left;
+                                        width:100px;
+                                        margin-top:40px;
+                                        margin-left:10px;
+                                    }
+                                }
+                                >li:nth-child(2){
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
             }
 
             // 3.1.3结算栏

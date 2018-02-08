@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="../css/base.css" />
         <link rel="stylesheet" type="text/css" href="../css/detail.css" />
+        <link rel="stylesheet" type="text/css" href="../lib/jquery.gdsZoom/jquery.gdsZoom.css" />
         <script src ="../js/require.js" data-main ="../js/detail"></script>
     </head>
     <body>
@@ -62,8 +63,8 @@
                         <!-- 3.1.2.1左部展示区 -->
                         <div>
                             <!-- 放大镜区域 -->
-                            <div>
-                                
+                            <div class='showzoom' style="position:relative;">
+                                <img src="" alt="" width='450px' height='450px'/>
                             </div>
 
                             <!-- 切换图片区域 -->
@@ -96,7 +97,7 @@
                         <!-- 3.1.2.2右部购买区 -->
                         <div>
 
-                            <h3>流行时尚个性心形女士烤漆手链 PDRH004-A PDRH004
+                            <h3 class="goodsname">流行时尚个性心形女士烤漆手链 PDRH004-A PDRH004
                             </h3>
 
                             <p>
@@ -104,7 +105,7 @@
                                 <span>所属仓：深圳莱卡尼</span>
                             </p>
 
-                            <p>批发价:<a href=''>登录可见</a></p>
+                            <p>批发价:<a class="goodsprice">登录可见</a>￥</p>
 
                             <p>≥ 1 件</p>
 
@@ -133,7 +134,7 @@
                             <!-- 加入进货单加入购物车 -->
                             <div>
                                 
-                                <span>加入购物车</span>
+                                <span class="addcar">加入购物车</span>
                                 <span>加入进货单</span>
                             </div>     
                         </div>
