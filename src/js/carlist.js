@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2018-02-06 14:06:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-02-09 16:50:41
+* @Last Modified time: 2018-02-09 16:59:09
 */
 
 require(['config'],function(){
@@ -110,5 +110,6 @@ require(['config'],function(){
                 $('.total').text(sum);
             }
         })
+        
     })
 });
