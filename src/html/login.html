@@ -30,28 +30,44 @@
                         
                         <!-- 3.1.2.1tab标签 -->
                         <div>
-                            <span>密码登录</span>
-                            <span>验证码登录</span>
+                            <span class="tabtitle">密码登录</span>
+                            <span class="tabtitle">验证码登录</span>
                         </div>
 
                         <!-- 3.1.2.2tab内容 -->
                         <ul>
-                            <li></li>
+                            <li class="tabcontent">
+                                <!-- 密码 -->
+                                <div>
+                                    <div>
+                                        <input type="text" placeholder='用户名' class="username" />
+                                    </div>
+                                    <div>
+                                        <input type="password" placeholder='密码' class="password"/>
+                                    </div>
+                                    <button class="loginbtn">登录</button>
+
+                                    <a href="registered.html">免费注册</a>
+                                </div>
+                            </li>
                             <!-- 验证码 -->
-                            <li><div>
-                            <div>
-                                <input type="text" placeholder='手机'/>
-                            </div>
-                            <div>
-                                <input type="password" />
-                                <span>免费获取验证码</span>
-                            </div>
-                            
-                            <button>登录</button>
+                            <li class="tabcontent">
+                                <div>
+                                    <div>
+                                        <input type="text" placeholder='手机'/>
+                                    </div>
 
-                            <a href="">免费注册</a>
+                                    <div>
+                                        <input type="password" placeholder='手机验证码'/>
+                                        <span>免费获取验证码</span>
+                                    </div>
+                                
+                                    <button>登录</button>
 
-                        </div></li>
+                                    <a href="registered.html">免费注册</a>
+
+                                </div>
+                            </li>
                         </ul>
                         
                     </div>

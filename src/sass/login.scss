@@ -42,15 +42,77 @@
                         text-align:center;
                         line-height:30px;
                     }
+                    >span:nth-child(1){
+                        background:#fff;
+                    }
                     
                 }
                 // 3.1.2.2tab内容
                 >ul{
                     >li:nth-child(1){
+                        >div{
+                            position:relative;
+                            width:438px;
+                            height:350px;
+                            background-color:#FFFFFF;
 
+                            >div:nth-child(1){
+                                padding-left:40px;
+                                padding-top:50px;
+
+                                >input{
+                                    width:356px;
+                                    height:36px;
+                                }
+                            }
+
+                            >div:nth-child(2){
+                                overflow:hidden;
+                                padding-left:40px;
+                                padding-top:40px;
+
+                                >input{
+                                    float:left;
+                                    width:356px;
+                                    height:36px;
+                                }
+
+                                >span{
+                                    display:block;
+                                    float:left;
+                                    width:146px;
+                                    height:40px;
+                                    line-height:40px;
+                                    text-align:center;
+                                    background-color:#F5F5F5;
+                                    margin-left:10px;
+                                }
+                            }
+
+                            >button:nth-child(3){
+                                border:none;
+                                display:block;
+                                width:360px;
+                                height:40px;
+                                background-color:#BC338B;
+                                line-height:40px;
+                                text-align:center;
+                                margin:0 auto;
+                                margin-top:60px;
+                                color:#fff;
+                                font-size: 18px;
+                            }
+
+                            >a:nth-child(4){
+                                position:absolute;
+                                right:40px;
+                                bottom:40px;
+                            }
+                        }
                     }
                     // （验证码）
                     >li:nth-child(2){
+                        display:none;
                         >div{
                             position:relative;
                             width:438px;

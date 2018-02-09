@@ -696,7 +696,13 @@
                                     }
 
                                 }
-                                >li:nth-child(4) span::after{
+                                >li:nth-child(4) a{
+                                    cursor:pointer;
+                                    display:block;
+                                    padding:10px;
+                                    position:relative;
+                                }
+                                >li:nth-child(4) a::after{
                                     display:block;
                                     content:'';
                                     width:16px;
@@ -821,7 +827,13 @@
                                     }
 
                                 }
-                                >li:nth-child(6) span::after{
+                                >li:nth-child(7) a{
+                                    cursor:pointer;
+                                    display:block;
+                                    padding:10px;
+                                    position:relative;
+                                }
+                                >li:nth-child(7) a::after{
                                     display:block;
                                     content:'';
                                     width:16px;
@@ -829,7 +841,7 @@
                                     background:url('../img/index_img/3.1jingling.fw.png') -644px 0;
                                     position:absolute;
                                     top:8px;
-                                    left:60px;
+                                    left:40px;
                                 }
                             }
                         }

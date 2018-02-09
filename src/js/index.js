@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2018-02-04 21:06:49
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-02-07 20:48:02
+* @Last Modified time: 2018-02-09 16:12:36
 */
 
 require(['config'],function(){
@@ -12,7 +12,14 @@ require(['config'],function(){
         $('header').load('html/header');
         $('footer').load('html/footer');
         $('#floatmenu').load('html/floatmenu');
-
+        
+        // 改变跳转
+        setTimeout(function(){console.log(666)
+            $('.home').attr({href:'#'});
+            $('.car').attr({href:'html/carlist.html'});
+            $('.login').attr({href:'html/login.html'});
+        },50)
+        
         // 调用轮播图插件
         $('.banner').lxCarousel({
             width:800,

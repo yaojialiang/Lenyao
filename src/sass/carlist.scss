@@ -117,10 +117,46 @@
 
             // 3.1.2商品清单
             >div:nth-child(2){
-                >ul{
+                >ul:nth-child(1){
+                    width:1200px;
+                    margin:0 auto;
+                    padding:15px 0;
+                    overflow:hidden;
+                    >li{
+                        float:left;
+                        text-align:center;
+                    }
+                    >li:nth-child(1){
+                        width:324px;
+                    }
+                    >li:nth-child(2){
+                        width:204px;
+                    }
+                    >li:nth-child(3){
+                        width:104px;
+                    }
+                    >li:nth-child(4){
+                        width:104px;
+                    }
+                    >li:nth-child(5){
+                        width:204px;
+                    }
+                    >li:nth-child(6){
+                        width:154px;
+                    }
+                    >li:nth-child(7){
+                        width:104px;
+                    }
+
+                }
+                // 内容
+                >ul:nth-child(2){
+                    width:1200px;
+                    margin:0 auto;
                     >li{
                         width:1200px;
                         margin:0 auto;
+                        margin-top:30px;
                         >div{
                             border:2px solid #E1E9EF;
                             >p{
@@ -154,12 +190,13 @@
                             >ul{
                                 height:115px;
                                 >li{
-                                    
+                                    border-right:1px solid #E1E9EF;
+                                    height:115px;
+                                    float:left;
                                 }
                                 >li:nth-child(1){
-                                    float:left;
-                                    height:115px;
-                                    border-right:1px solid #E1E9EF;
+                                    
+                                    
                                     >img{
                                         display:block;
                                         margin-left:15px;
@@ -183,7 +220,81 @@
                                 }
                                 >li:nth-child(2){
                                     
+
+                                    >div{
+                                        margin-top:48px;
+                                        padding:0 42px;
+                                        >span:nth-child(1){
+                                            float:left;
+                                            display:block;
+                                            width:22px;
+                                            height:22px;
+                                            background:url('../img/carlist_img/carlistjingling.fw.png') -15px 0;
+                                        }
+                                        >input:nth-child(2){
+                                            float:left;
+                                            width:68px;
+                                            height:18px;
+                                            text-align:center;
+                                        }
+                                        >span:nth-child(3){
+                                            float:left;
+                                            display:block;
+                                            width:22px;
+                                            height:22px;
+                                            background:url('../img/carlist_img/carlistjingling.fw.png') -46px 0;
+                                        }
+                                    }
+                                    
                                 }
+
+                                >li:nth-child(3){
+                                    >p{
+                                        float:left;
+                                        margin-top:40px;
+                                        padding:0 41px;
+                                    }
+                                    
+                                }
+
+                                >li:nth-child(4){
+                                    >p{
+                                        float:left;
+                                        margin-top:40px;
+                                        padding:0 41px;
+                                    }
+                                }
+                                >li:nth-child(5){
+                                    >p{
+                                        float:left;
+                                        margin-top:40px;
+                                        padding:0 31px;
+                                        >span:nth-child(1){
+                                            padding:0 20px;
+                                        }
+                                        >span:nth-child(2){
+                                            padding:0 20px;
+                                        }
+                                    }
+                                }
+                                >li:nth-child(6){
+                                    >p{
+                                        float:left;
+                                        margin-top:40px;
+                                        padding:0 41px;
+                                        color:#E52D88;
+                                    }
+                                }
+                                >li:nth-child(7){
+                                    >p{
+                                        float:left;
+                                        margin-top:40px;
+                                        padding:0 41px;
+                                        color:#E52D88;
+                                    }
+                                }    
+                                    
+                                
                             }
                         }
                     }

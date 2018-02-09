@@ -2,7 +2,7 @@
   background-color: #BCECFA; }
   #container > div:nth-child(2) > div:nth-child(1) {
     width: 1200px;
-    height: 400px;
+    height: 600px;
     margin: 0 auto;
     padding-top: 110px;
     padding-bottom: 110px; }
@@ -34,42 +34,62 @@
           #container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(1) > input {
             width: 356px;
             height: 36px; }
+          #container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(1) > p {
+            height: 18px; }
         #container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(2) {
           padding-left: 40px;
           padding-top: 20px; }
           #container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(2) > input {
             width: 356px;
             height: 36px; }
+          #container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(2) > p {
+            height: 18px; }
         #container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(3) {
           padding-left: 40px;
           padding-top: 20px; }
           #container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(3) > input {
             width: 356px;
             height: 36px; }
+          #container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(3) > p {
+            height: 18px; }
         #container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(4) {
           padding-left: 40px;
           padding-top: 20px; }
           #container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(4) > input {
             width: 356px;
             height: 36px; }
+          #container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(4) > p {
+            height: 18px; }
         #container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(5) {
           overflow: hidden;
           padding-left: 40px;
           padding-top: 20px; }
-          #container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(5) > input {
-            float: left;
-            width: 196px;
+          #container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(5) > div {
+            overflow: hidden; }
+            #container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(5) > div > input {
+              float: left;
+              width: 196px;
+              height: 36px; }
+            #container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(5) > div > span {
+              display: block;
+              float: left;
+              width: 146px;
+              height: 40px;
+              line-height: 40px;
+              text-align: center;
+              background-color: #F5F5F5;
+              margin-left: 10px; }
+          #container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(5) > p {
+            height: 18px; }
+        #container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(6) {
+          padding-left: 40px;
+          padding-top: 20px; }
+          #container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(6) > input {
+            width: 356px;
             height: 36px; }
-          #container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(5) > span {
-            display: block;
-            float: left;
-            width: 146px;
-            height: 40px;
-            line-height: 40px;
-            text-align: center;
-            background-color: #F5F5F5;
-            margin-left: 10px; }
-        #container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > button:nth-child(6) {
+          #container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(6) > p {
+            height: 18px; }
+        #container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > button:nth-child(7) {
           border: none;
           display: block;
           width: 360px;
@@ -78,6 +98,9 @@
           line-height: 40px;
           text-align: center;
           margin: 0 auto;
-          margin-top: 60px;
+          margin-top: 20px;
           color: #fff;
           font-size: 18px; }
+        #container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div > p:nth-child(8) {
+          height: 18px;
+          text-align: center; }
